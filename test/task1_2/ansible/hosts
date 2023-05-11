@@ -1,0 +1,2 @@
+[redhat-servers]
+192.168.1.25 virtual_domain=test1.example.io

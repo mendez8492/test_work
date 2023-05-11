@@ -1,0 +1,2 @@
+Пример роли установки и конфигурирования nginx с помощью ansible
+Конфигурация с редиректом лежит по адресу /ansible/roles/nginx/templates/nginx_vhosts.conf

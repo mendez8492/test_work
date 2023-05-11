@@ -1,0 +1,18 @@
+---
+- hosts: redhat-servers
+  become:
+    true
+  become_method:
+    su
+  become_user:
+    root
+  remote_user:
+    ansible
+  roles:
+   - epel
+   - nginx
+
+- hosts: redhat-servers
+  vars:
+    nginx_user: nginx
+    ...
